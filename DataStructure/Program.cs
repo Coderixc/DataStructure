@@ -1,6 +1,5 @@
-﻿using System;
-
-using DataStructure.DataStructre; //Use namespace
+﻿
+using DataStructure.Struct; //Use namespace
 
 namespace MyApp
 {
@@ -13,8 +12,12 @@ namespace MyApp
 
             Console.WriteLine("Prog 1 : Struct - User Defined Data Types ");
             Struct_Implement struct_Implement = new Struct_Implement();
-            struct_Implement.Insert_toStocklist();
-            struct_Implement.PrintAll();    
+            struct_Implement.addStock_toMylist();
+            struct_Implement.DisplayAll();
+
+            //Copy Item from One Struct to another
+            // 3 as argument suiggest, we are looking for struct stock object at location index 3
+            struct_Implement.copyStructure(3);
 
            Console.ReadKey();   
 
