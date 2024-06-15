@@ -1,5 +1,5 @@
 ﻿
-namespace DataStructure.Struct
+namespace DataStructure
 {
     /*
     In C#, structure is defined using struct keyword. Using struct keyword one can define the
